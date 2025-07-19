@@ -1,0 +1,22 @@
+{
+  "app_title": "REQIUEM",
+  "sign_in": "Sign In",
+  "sign_up": "Sign Up",
+  "email": "Email",
+  "password": "Password",
+  "full_name": "Full Name",
+  "confirm_password": "Confirm Password",
+  "login": "Login",
+  "dont_have_account": "Don't have an account? Sign Up",
+  "already_have_account": "Already have an account? ",
+  "account_created": "Account created successfully",
+  "account_signin": "Account sign-in successfully",
+  "close": "Close",
+  "our_products": "Our Products",
+  "hot_offers": "Hot Offers",
+  "item_added": "Item added to the cart",
+  "name_error": "Name must start with an uppercase letter",
+  "email_error": "Enter a valid email",
+  "password_error": "Password must be at least 6 characters",
+  "confirm_password_error": "Passwords do not match"
+}
