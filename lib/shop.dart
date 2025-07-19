@@ -30,16 +30,20 @@ class _MainShoppingScreenState extends State<MainShoppingScreen> {
     'Shirt', 'Coat', 'Cravat', 'Silk', 'Firl', 'Girl', 'Glasses', 'Men', 'Yellow', 'Shoot', 'Flo'
   ];
 
-  final List<Map<String, String>> hotOffers = [
-    { 'image': 'assets/shirt.jpg', 'desc': '50% off on all shirts!' },
-    { 'image': 'assets/coat.jpg', 'desc': 'Buy 1 Get 1 Free on coats!' },
-    { 'image': 'assets/girl.jpg', 'desc': 'Special offer on girls wear!' },
-    { 'image': 'assets/glasses.jpg', 'desc': 'Trendy glasses at best price!' },
-    { 'image': 'assets/yellow.jpg', 'desc': 'Yellow collection sale!' },
-  ];
+  
 
   @override
   Widget build(BuildContext context) {
+
+    final List<Map<String, String>> hotOffers = [
+  { 'image': 'assets/shirt.jpg', 'desc': 'offer_shirts'.tr() },
+  { 'image': 'assets/coat.jpg', 'desc': 'offer_coats'.tr() },
+  { 'image': 'assets/girl.jpg', 'desc': 'offer_girls_wear'.tr() },
+  { 'image': 'assets/glasses.jpg', 'desc': 'offer_glasses'.tr() },
+  { 'image': 'assets/yellow.jpg', 'desc': 'offer_yellow_collection'.tr() },
+];
+
+
     return Scaffold(
       appBar: AppBar(
         title: AnimatedTextKit(

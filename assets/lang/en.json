@@ -18,5 +18,11 @@
   "name_error": "Name must start with an uppercase letter",
   "email_error": "Enter a valid email",
   "password_error": "Password must be at least 6 characters",
-  "confirm_password_error": "Passwords do not match"
+  "confirm_password_error": "Passwords do not match",
+  "offer_shirts": "50% off on all shirts!",
+  "offer_coats": "Buy 1 Get 1 Free on coats!",
+  "offer_girls_wear": "Special offer on girls wear!",
+  "offer_glasses": "Trendy glasses at best price!",
+  "offer_yellow_collection": "Yellow collection sale!"
+  
 }
